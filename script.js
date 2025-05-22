@@ -1,6 +1,5 @@
 const pages = document.querySelectorAll('.page');
 const titles = document.querySelectorAll('#sidebar .title');
-const indicator = document.getElementById('page-indicator');
 
 let currentPage = 0;
 let isScrolling = false;
@@ -15,8 +14,6 @@ function showPage(index) {
   titles.forEach((title, i) => {
     title.classList.toggle('active', i === index);
   });
-
-  indicator.textContent = `${index + 1} / ${pages.length}`;
 }
 
 // Cambio pagina (loop)
@@ -38,7 +35,7 @@ window.addEventListener('wheel', e => {
   changePage(e.deltaY > 0 ? 1 : -1);
 });
 
-// Touch mobile
+// Swipe touch
 let touchStartY = 0;
 window.addEventListener('touchstart', e => {
   touchStartY = e.touches[0].clientY;
