@@ -5,7 +5,7 @@ const indicator = document.getElementById('page-indicator');
 let currentPage = 0;
 let isScrolling = false;
 
-// Mostra la pagina corretta
+// Mostra la pagina
 function showPage(index) {
   pages.forEach((page, i) => {
     page.classList.remove('active');
@@ -19,7 +19,7 @@ function showPage(index) {
   indicator.textContent = `${index + 1} / ${pages.length}`;
 }
 
-// Cambia pagina con effetto loop
+// Cambio pagina (loop)
 function changePage(delta) {
   if (isScrolling) return;
 
@@ -33,11 +33,12 @@ function changePage(delta) {
   }, 900);
 }
 
-// Eventi
+// Scroll mouse
 window.addEventListener('wheel', e => {
   changePage(e.deltaY > 0 ? 1 : -1);
 });
 
+// Touch mobile
 let touchStartY = 0;
 window.addEventListener('touchstart', e => {
   touchStartY = e.touches[0].clientY;
@@ -49,5 +50,5 @@ window.addEventListener('touchend', e => {
   }
 });
 
-// Avvio
+// Inizializzazione
 showPage(currentPage);
