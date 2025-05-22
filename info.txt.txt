@@ -1,2 +1,21 @@
 Sito bottone farmaci :  https://www.pharmap.it/
 Sito prenotare visite: https://www.miodottore.it/
+
+*TESTO PAGINA FARMACI*
+Farmaci a domicilio è un servizio comodo e sicuro che permette di ricevere i tuoi medicinali direttamente a casa, senza fare code in farmacia. Ideale per anziani, persone fragili o chi ha poco tempo, garantisce consegne rapide e riservatezza.
+
+*TESTO PAGINA VISITE*
+Prenotazione visite online è un servizio semplice e veloce che ti permette di prenotare visite mediche da casa, in pochi clic. Eviti le attese al telefono e scegli comodamente data, orario e specialista.
+
+*TESTO PAGINA 4 PRODOTTO*
+Dispositivo di emergenza smart: un piccolo apparecchio simile ad Alexa, progettato per garantire sicurezza in casa. Con un semplice comando vocale, chiama immediatamente i soccorsi in caso di emergenza. Ideale per anziani e persone fragili.
+
+*TESTO PAGINA 5 PRODOTTO*
+• Attivazione vocale: riconoscimento di parole chiave per chiamare aiuto immediato.
+• Chiamata automatica ai soccorsi: connessione diretta al 112 o numeri preimpostati (familiari, medico, caregiver).
+• Microfono e altoparlante integrati: comunicazione viva voce chiara e bidirezionale.
+• Connessione Wi-Fi e/o SIM 4G: funzionamento anche senza rete fissa.
+• Batteria di emergenza: autonomia fino a 24 ore in caso di blackout.
+• Design compatto: leggero, discreto, facile da posizionare in casa.
+• Aggiornamenti automatici: software sempre aggiornato per garantire sicurezza e affidabilità.
+• Funzione promemoria: avvisi vocali per farmaci o appuntamenti, se integrato con l’app.
